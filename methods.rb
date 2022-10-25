@@ -29,17 +29,12 @@ def add (num1, num2 )
     end
 
 
-def halve ( number)
-    return number / 2
-end
-    if number.Class != Integer
-        return nil
+    def halve(num)
+        if num.class != Integer
+           return  nil
+        end
+        num / 2
     end
 
-    # def reverse_name(name)
-    #     if name.class != String
-    #       return nil
-    #     end
-      
-    #     name.reverse
-    #   end
+   
+    
